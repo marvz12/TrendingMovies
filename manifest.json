@@ -1,0 +1,25 @@
+{
+    "name": "Trending Movies Extension",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "Displays a list of trending movies in a small window next to the address bar.",
+    "notice": "This product uses the TMDB API but is not endorsed or certified by TMDB",
+    "icon": {
+      "48": "icon/icon48.jpg"
+    },
+    
+    "action": {
+      "default_title": "Trending Movies",
+      "default_popup": "index.html",
+      "matches": ["<all_urls>"]
+    },
+    
+    "host_permissions": [
+      "https://api.themoviedb.org/*"
+    ],
+    
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #dcdcdc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-size: cover;
+}
+
+#movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 20px;
+}
+
+#movies div {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  background-image: linear-gradient(to right, #ff6f6f, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 35px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.inputText {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.searchBtn {
+  background-color: rgba(15, 160, 173, 0.652);
+  width: 70px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+}
+
+#ratingBtn {
+  background-color: orange;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  margin-left: 450px;
+  margin-top: 0px;
+  font-weight: bolder;
+  border: none;
+}
+
+p {
+  color: rgb(232, 226, 226);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#genre {
+  margin-right: 10px;
+  border: none;
+}
+
+.container {
+  background-color: #575151;
+  padding: 2rem;
+  border-radius: 1%;
+}
+
+#footer {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
